@@ -9,16 +9,16 @@ sys.path.append(
 from functions import add, minus, multiply, divide
 
 def test_add():
-    assert add(1, 2) == 1 + 2
+    assert add(1, 2) == str(1 + 2)
 
 
 def test_minus():
-    assert minus(5, 3) == 5 - 3
+    assert minus(5, 3) == str(5 - 3)
 
 
 def test_multiply():
-    assert multiply(4, 6) == 4 * 6
+    assert multiply(4, 6) == str(4 * 6)
 
 
 def test_divide():
-    assert divide(8, 2) == 8 / 2
+    assert divide(8, 2) == str(8 / 2)
