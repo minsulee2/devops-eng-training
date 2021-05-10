@@ -39,10 +39,10 @@ pytest integration/app_test.py
 # url
 
 ## functions
-localhost:3000/addition&num1=1&num2=2
-localhost:3000/subtraction&num1=6&num2=4
-localhost:3000/multiplication&num1=5&num2=3
-localhost:3000/division&num1=4&num2=2
+localhost:3000/add&num1=1&num2=2
+localhost:3000/subtract&num1=6&num2=4
+localhost:3000/multiply&num1=5&num2=3
+localhost:3000/divide&num1=4&num2=2
 
 ## integration
 localhost:3000/healthz
