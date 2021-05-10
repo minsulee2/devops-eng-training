@@ -6,14 +6,14 @@ import sys
 sys.path.append(
     os.path.dirname(os.path.dirname(__file__))
 )
-from functions import add, minus, multiply, divide
+from functions import add, subtract, multiply, divide
 
 def test_add():
     assert add(1, 2) == str(1 + 2)
 
 
-def test_minus():
-    assert minus(5, 3) == str(5 - 3)
+def test_subtract():
+    assert subtract(5, 3) == str(5 - 3)
 
 
 def test_multiply():

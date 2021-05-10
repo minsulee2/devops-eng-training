@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from functions import add, minus, multiply, divide
+from functions import add, subtract, multiply, divide
 
 app = Flask(__name__)
 
@@ -21,10 +21,10 @@ def operate_add():
     return add(num1, num2)
 
 
-@app.route("/minus")
-def operate_minus():
+@app.route("/subtract")
+def operate_subtract():
     num1, num2 = request.args.get('num1'), request.args.get('num2')
-    return minus(num1, num2)
+    return subtract(num1, num2)
 
 
 @app.route("/multiply")

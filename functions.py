@@ -4,7 +4,7 @@ def add(a, b):
     return str(int(a) + int(b))
 
 
-def minus(a, b):
+def subtract(a, b):
     return str(int(a) - int(b))
 
 
