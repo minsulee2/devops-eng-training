@@ -49,6 +49,6 @@ localhost:3000/healthz
 ```
 
 
-## Author
+## Origin Author
 
 [Minsu Lee](https://github.com/minsulee2/devops-eng-training)
