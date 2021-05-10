@@ -34,4 +34,4 @@ jobs:
         pytest unittest/functions_test.py
     - name: Run apps and Health Check test with pytest
       run: |
-        python app.py & sleep(5) & pytest integration/app_test.py
+        python app.py & sleep 3 & pytest integration/app_test.py
